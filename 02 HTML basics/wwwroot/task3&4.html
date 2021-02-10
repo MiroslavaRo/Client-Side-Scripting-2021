@@ -1,0 +1,106 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Task 3 and 4</title>
+    <style>
+        tr, th, td {
+            border: 1px solid;
+        }
+        th {
+            text-align: center;
+            font-weight: bold;
+        }
+        td {
+            text-align: left;
+        }
+        table {
+            width:40%;
+            border: 5px groove;
+            border-spacing: 10px;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Table for task 3</h1>
+    <table>
+        <tr>
+            <th colspan="4">Purchased Equipment (June, 2006)</th>
+        <tr>
+        <tr>
+            <th rowspan="2">Item num#</th>
+            <th rowspan="2">Item picture</th>
+            <th>Item Description</th>
+            <th>Price</th>
+        </tr>
+        <tr>
+            <th>Shipping Handling, Installation, etc</th>
+            <th>Expense</th>
+        </tr>
+        <tr>
+            <td rowspan="2">1.</td>
+            <td rowspan="2"><img scr="imgs\t1.jpg" alt="Computer" height=100 width=100></td>
+            <td>IBM CLone Computer</td>
+            <td>$ 400.00</td>
+        </tr>
+        <tr>
+            <td>Shipping Handling, Installation, etc</td>
+            <td>$ 20.00</td>
+        </tr>
+        <tr>
+            <td rowspan="2">2.</td>
+            <td rowspan="2"><img scr="imgs\t2.jpg" alt="RAM Module" height=100 width=100></td>
+            <td>1 GB RAM Module for Computer</td>
+            <td>$ 50.00</td>
+        </tr>
+        <tr>
+            <td>Shipping Handling, Installation, etc</td>
+            <td>$ 14.00</td> 
+        </tr>
+        <tr>
+            <th colspan="4">Purchased Equipment (June, 2006)</th>
+        <tr>
+
+    </table>
+   <h1>Form for task 4</h1>
+    <form action="/action_page.php"target="_blank">
+        <fieldset style="width:30%">
+            <legend>Error Message</legend>
+            <label for="txtfld">Text Field: </label>
+            <input type="text" id="txtfld" name="text field">
+            <br>
+            <br>
+            <label for="pwd">Password Field: </label>
+            <input type="password" id="pwd" name="password">
+            <br>
+            <br>
+            <label for="txtarea">Text Area: </label>
+            <textarea name="txtarea" rows="5"cols="30"></textarea>
+            <br>
+            <label for="slctbx">Select Box: </label>
+            <select id="slctbx">
+                <option selected value="Option 1">Option 1</option>
+                <option value="Option 2">Option 2</option>
+                <option value="Option 3">Option 3</option>
+            </select>
+            <br>
+            <label for="chckbx">Check Box: </label>
+            <input type="checkbox" id="chckbx" name="check box">
+            <br>
+            <label for="rd1">Radio Buttons: </label>
+            <input type="radio" id="rd1" name="nums" value="1">
+            <label for="rd1">1 </label>
+            <input type="radio" id="rd2" name="nums" value="2">
+            <label for="rd2">2 </label>
+            <input type="radio" id="rd3" name="nums" value="3">
+            <label for="rd3">3 </label>
+            <br>
+            <br>
+            <input type="submit" value="Submit">
+            <input type="reset" value="Reset" >
+        </fieldset>
+    </form>
+
+</body>
+</html>
