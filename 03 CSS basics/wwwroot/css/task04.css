@@ -1,0 +1,25 @@
+﻿table{
+    width: 100%;
+    text-align: center;
+    border: 1px solid;
+    margin:0;
+    padding: 0;
+}
+td {
+    border: 1px solid;
+    padding: 15px;
+}
+.td1, .td3 {
+    width: 170px;
+}
+.td1 {
+    background-color:yellow;
+
+}
+.td2 {
+    background-color: white;
+}
+.td3
+{
+    background-color:orange;     
+}
