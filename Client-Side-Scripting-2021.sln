@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30907.101
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02 HTML basics", "02 HTML basics\02 HTML basics.csproj", "{4D2755AD-87F9-4608-AE6D-15B255E0A5F0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02 HTML basics", "02 HTML basics\02 HTML basics.csproj", "{4D2755AD-87F9-4608-AE6D-15B255E0A5F0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03 CSS basics", "03 CSS basics\03 CSS basics.csproj", "{54A1371C-6EBA-469A-AD41-B7AA24BDCBF9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "03 CSS basics", "03 CSS basics\03 CSS basics.csproj", "{54A1371C-6EBA-469A-AD41-B7AA24BDCBF9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04 JavaScript Syntax", "04 JavaScript Syntax\04 JavaScript Syntax.csproj", "{134CE308-1366-490A-AE5C-13863B2B093A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{54A1371C-6EBA-469A-AD41-B7AA24BDCBF9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{54A1371C-6EBA-469A-AD41-B7AA24BDCBF9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{54A1371C-6EBA-469A-AD41-B7AA24BDCBF9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{134CE308-1366-490A-AE5C-13863B2B093A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{134CE308-1366-490A-AE5C-13863B2B093A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{134CE308-1366-490A-AE5C-13863B2B093A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{134CE308-1366-490A-AE5C-13863B2B093A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
