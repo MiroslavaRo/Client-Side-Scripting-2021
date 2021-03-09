@@ -1,0 +1,13 @@
+﻿.tbl2{
+    text-align:center;
+    font-size:50px;
+    margin-left:auto;
+    margin-right:auto;
+}
+.td1 {
+    border: 1px black solid;
+}
+    .td1:hover {
+        background-color: #e6e6e6;
+        cursor:pointer;
+    }

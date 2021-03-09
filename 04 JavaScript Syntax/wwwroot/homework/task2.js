@@ -11,7 +11,6 @@ function Buttons() {
             current[0].className = current[0].className.replace(" active", "");
             this.className += " active";
             opt = String(this.value);
-            console.log(opt);
         });
         if (btns[i].className == "btn active") {
             option = btns[i].value;
