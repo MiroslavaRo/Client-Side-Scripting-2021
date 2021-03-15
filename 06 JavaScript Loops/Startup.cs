@@ -8,7 +8,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace _05_JavaScript_Functions
+namespace _06_JavaScript_Loops
 {
     public class Startup
     {
@@ -29,7 +29,6 @@ namespace _05_JavaScript_Functions
             app.UseRouting();
 
             app.UseStaticFiles();
-
 
             app.UseEndpoints(endpoints =>
             {

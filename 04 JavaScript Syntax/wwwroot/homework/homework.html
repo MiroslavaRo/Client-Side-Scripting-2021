@@ -37,20 +37,20 @@
             </tr>
 
             <tr>
+                <th>Option:</th>
                 <td>
                     <div id="myDIV" class="myDIV">
-                        <div class="dropdown">
-                            <button class="dropbtn">Choose option:</button>
-                            <div class="dropdown-content">
-                                <button class="btn" value="+">+</button>
-                                <button class="btn active" value="-">-</button>
-                                <button class="btn" value="*">*</button>
-                                <button class="btn" value="/">/</button>
-                            </div>
-                        </div>
+                        <select id="mySelect">
+                            <option disabled>Choose option</option>
+                            <option class="btn" value="+">+</option>
+                            <option class="btn" value="-">-</option>
+                            <option class="btn" value="*">*</option>
+                            <option class="btn" value="/">/</option>
+                        </select>
                     </div>
                 </td>
             </tr>
+
             <tr>
                 <td>
                     <button class="calculate" type="button" onclick="Calculator()">Calculate</button>
@@ -58,43 +58,37 @@
             </tr>
         </table>
 
-        <script>
-            Buttons();
-        </script>
-
         <div id="result" class="result"></div>
     </div>
+    <br />
     <br />
     <div class="task3">
         <h2 style="text-align:center">Task 3</h2>
         <table class="tbl2">
             <tr>
-                <td class="td1" id="id1">1</td>
-                <td class="td1" id="id2">2</td>
-                <td class="td1" id="id3">3</td>
-                <td class="td1" id="id4">4</td>
-                <td class="td1" id="id5">5</td>
+                <td class="td1" onclick="ChangeColor1(this)">1</td>
+                <td class="td1" onclick="ChangeColor1(this)">2</td>
+                <td class="td1" onclick="ChangeColor1(this)">3</td>
+                <td class="td1" onclick="ChangeColor1(this)">4</td>
+                <td class="td1" onclick="ChangeColor1(this)">5</td>
             </tr>
             <tr>
-                <td class="td1" id="6">6</td>
-                <td class="td1" id="7">7</td>
-                <td class="td1" id="8">8</td>
-                <td class="td1" id="9">9</td>
-                <td class="td1" id="10">10</td>
+                <td class="td1" onclick="ChangeColor1(this)">6</td>
+                <td class="td1" onclick="ChangeColor1(this)">7</td>
+                <td class="td1" onclick="ChangeColor1(this)">8</td>
+                <td class="td1" onclick="ChangeColor1(this)">9</td>
+                <td class="td1" onclick="ChangeColor1(this)">10</td>
             </tr>
             <tr>
-                <td class="td1" id="11">11</td>
-                <td class="td1" id="12">12</td>
-                <td class="td1" id="13">13</td>
-                <td class="td1" id="14">14</td>
-                <td class="td1" id="15">15</td>
+                <td class="td1" onclick="ChangeColor1(this)">11</td>
+                <td class="td1" onclick="ChangeColor1(this)">12</td>
+                <td class="td1" onclick="ChangeColor1(this)">13</td>
+                <td class="td1" onclick="ChangeColor1(this)">14</td>
+                <td class="td1" onclick="ChangeColor1(this)">15</td>
             </tr>
         </table>
-        <script>ColorCell()</script>
     </div>
-    
  
-   
 
        
 

@@ -1,34 +1,22 @@
 ﻿
-function Buttons() {
-    var opt = "";
-    var option = "";
-    // Add active class to the current button (highlight it)
-    var header = document.getElementById("myDIV");
-    var btns = header.getElementsByClassName("btn");
-    for (var i = 0; i < btns.length; i++) {
-        btns[i].addEventListener("click", function () {
-            var current = document.getElementsByClassName("active");
-            current[0].className = current[0].className.replace(" active", "");
-            this.className += " active";
-            opt = String(this.value);
-        });
-        if (btns[i].className == "btn active") {
-            option = btns[i].value;
-            console.log(option);
-        }
-        
-    }  
-    return option;
-}
 function Calculator() {
+    let itemList = document.getElementById("mySelect");
+    let outputBox = document.getElementById("result");
 
     let a = Number(document.getElementById("One").value);
     let b = Number(document.getElementById("Two").value);
-    let option = Buttons();
+    let collection = itemList.selectedOptions;
+    let output = "";
 
-    let result = "<hr>Your expression: ";
-    let calculation = eval(a + option + b);
-    result = result + a +" "+ option +" "+ b + ' = ' + calculation;
+    for (let i = 0; i < collection.length; i++) {
+        if (output === "") {
+            output = "<br/>Your expression: ";
+        }
+        let calculation = eval(a + collection[i].label + b);
+        output = output + a + " " + collection[i].label + " " + b + ' = ' + calculation + ' <hr>';
+    }
 
-    document.getElementById("result").innerHTML = result;
+    document.getElementById("result").innerHTML = output;
 }
+
+

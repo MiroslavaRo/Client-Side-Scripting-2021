@@ -2,11 +2,7 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
-    <RootNamespace>_05_JavaScript_Functions</RootNamespace>
+    <RootNamespace>_06_JavaScript_Loops</RootNamespace>
   </PropertyGroup>
-
-  <ItemGroup>
-    <Folder Include="wwwroot\css\" />
-  </ItemGroup>
 
 </Project>

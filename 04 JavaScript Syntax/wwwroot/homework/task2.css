@@ -16,50 +16,9 @@
 }
 
 .myDIV {
-    margin-top:10px;
-    margin-left: 40%;
+    margin-top: 10px;
+    
 }
-.dropbtn {
-    width:120%;
-    margin-left:20px;
-    background-color: #4CAF50;
-    color: white;
-    padding: 16px;
-    font-size: 17px;
-    border: none;
-    cursor: pointer;
-}
-.dropdown {
-    position: relative;
-    display: inline;
-}
-
-.dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #f9f9f9;
-   
-}
-.btn {
-    border: none;
-    outline: none;
-    padding: 10px 16px;
-    background-color: #f1f1f1;
-    cursor: pointer;
-    text-decoration: none;
-}
-    .active, .btn:hover {
-        background-color: #666;
-        color: white;
-    }
-.dropdown:hover .dropdown-content {
-    display: block;
-}
-
-.dropdown:hover .dropbtn {
-    background-color: #3e8e41;
-}
-
 
 .calculate {
     margin-left:55%;

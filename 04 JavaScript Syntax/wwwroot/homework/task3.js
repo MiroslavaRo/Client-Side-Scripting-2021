@@ -1,8 +1,7 @@
-﻿function ColorCell() {
+﻿
 
-    
-}
-           
+function ChangeColor1(element) {
+    element.style.backgroundColor = getRandomColor();
      
 }
 function getRandomColor() {
