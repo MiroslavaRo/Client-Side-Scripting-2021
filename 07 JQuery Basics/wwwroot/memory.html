@@ -1,0 +1,45 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Memory Game</title>
+    <script src="../jQuery/jquery-3.6.0.min.js"></script>
+    <script src="../js,css/memory.js"></script>
+    <link rel="stylesheet" type="text/css" href="../js,css/memory.css">
+</head>
+<body>
+    <div class="mainContainer">
+        <h1> Memory game</h1>
+        <table border="1">
+            <tr>
+                <td>
+                    <img data-x="0" data-y="0" src="images/back.jpg" />
+                </td>
+                <td>
+                    <img data-x="0" data-y="1" src="images/back.jpg" />
+                </td>
+                <td>
+                    <img data-x="0" data-y="2" src="images/back.jpg" />
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <img data-x="1" data-y="0" src="images/back.jpg" />
+                </td>
+                <td>
+                    <img data-x="1" data-y="1" src="images/back.jpg" />
+                </td>
+                <td>
+                    <img data-x="1" data-y="2" src="images/back.jpg" />
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div id="moves">
+        <p>
+            Moves counter:
+            <input id="counter" value="0"/>
+        </p>
+    </div>
+</body>
+</html>
