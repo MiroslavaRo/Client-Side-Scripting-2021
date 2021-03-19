@@ -6,15 +6,11 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <None Remove="wwwroot\imgs\img1.jpg" />
-    <None Remove="wwwroot\imgs\img2.jpg" />
-    <None Remove="wwwroot\imgs\img3.jpg" />
-    <None Remove="wwwroot\imgs\img4.jpg" />
-    <None Remove="wwwroot\imgs\img5.jpg" />
-    <None Remove="wwwroot\imgs\img6.jpg" />
-    <None Remove="wwwroot\imgs\img7.jpg" />
-    <None Remove="wwwroot\imgs\t1.jpg" />
-    <None Remove="wwwroot\imgs\t2.jpg" />
+    <None Remove="wwwroot\images\img1.jpg" />
+    <None Remove="wwwroot\images\img2.jpg" />
+    <None Remove="wwwroot\images\img3.jpg" />
+    <None Remove="wwwroot\images\img4.jpg" />
+    <None Remove="wwwroot\images\img5.jpg" />
   </ItemGroup>
 
 </Project>

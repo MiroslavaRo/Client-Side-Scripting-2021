@@ -33,7 +33,7 @@ function RomanNumeral() {
     var num = document.getElementById('num').value;
     var num2 = num;
     var romanNumber = '';
-    for (var i = 0; i < num; i++) {
+    for (var i = num; i != 0; i--) {
         if (num >= 1 && num < 5) {
             if (num == 5-1) {
                 num = num - (5-1);
