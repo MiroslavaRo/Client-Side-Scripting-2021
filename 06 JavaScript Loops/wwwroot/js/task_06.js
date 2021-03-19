@@ -33,9 +33,9 @@ function RomanNumeral() {
     var num = document.getElementById('num').value;
     var num2 = num;
     var romanNumber = '';
-    for (var i = num; i != 0; i--) {
+    do {
         if (num >= 1 && num < 5) {
-            if (num == 5-1) {
+            if (num >= 5-1) {
                 num = num - (5-1);
                 romanNumber += 'IV';
             }
@@ -45,7 +45,7 @@ function RomanNumeral() {
             }
         }
         if (num >= 5 && num < 10) {
-            if (num==10-1) {
+            if (num>=10-1) {
                 num = num - (10-1);
                 romanNumber += 'IX';
             }
@@ -56,7 +56,7 @@ function RomanNumeral() {
             }
         }
         if (num >= 10 && num < 50) {
-            if (num == 50-10) {
+            if (num >= 50-10) {
                 num = num - (50-10);
                 romanNumber += 'XL';
             }
@@ -66,7 +66,7 @@ function RomanNumeral() {
             }
         }
         if (num >= 50 && num < 100) {
-            if (num == 100 - 10) {
+            if (num >= 100 - 10) {
                 num = num - (100 - 10);
                 romanNumber += 'XC';
             }
@@ -76,7 +76,7 @@ function RomanNumeral() {
             }
         }
         if (num >= 100 && num < 500) {
-            if (num == 500 - 100) {
+            if (num >= 500 - 100) {
                 num = num - (500 - 100);
                 romanNumber += 'CD';
             }
@@ -86,7 +86,7 @@ function RomanNumeral() {
             }
         }
         if (num >= 500 && num < 1000) {
-            if (num == 1000 - 100) {
+            if (num >= 1000 - 100) {
                 num = num - (1000 - 100);
                 romanNumber += 'CM';
             }
@@ -99,6 +99,7 @@ function RomanNumeral() {
             num = num - 1000;
             romanNumber += 'M';
         }
-    }
+        console.log(num);
+    } while (num != 0)
     console.log('Number: ' + num2+' Roman Number: '+romanNumber);
 }
