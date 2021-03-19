@@ -1,8 +1,20 @@
-<Project Sdk="Microsoft.NET.Sdk.Web">
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
 
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
     <RootNamespace>_06_JavaScript_Loops</RootNamespace>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="wwwroot\imgs\img1.jpg" />
+    <None Remove="wwwroot\imgs\img2.jpg" />
+    <None Remove="wwwroot\imgs\img3.jpg" />
+    <None Remove="wwwroot\imgs\img4.jpg" />
+    <None Remove="wwwroot\imgs\img5.jpg" />
+    <None Remove="wwwroot\imgs\img6.jpg" />
+    <None Remove="wwwroot\imgs\img7.jpg" />
+    <None Remove="wwwroot\imgs\t1.jpg" />
+    <None Remove="wwwroot\imgs\t2.jpg" />
+  </ItemGroup>
 
 </Project>
